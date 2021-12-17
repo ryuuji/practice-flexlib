@@ -1,0 +1,27 @@
+{
+  "name": "flexlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/hello.js",
+  "scripts": {
+    "build": "ts-node src/hello.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koozaki/romaji-conv": "^2.0.15",
+    "@types/flexsearch": "^0.7.2",
+    "flexsearch": "^0.7.21",
+    "kuromoji": "^0.1.2",
+    "minisearch": "^3.2.0",
+    "ngrammy": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/koozaki__romaji-conv": "^2.0.0",
+    "@types/kuromoji": "^0.1.1",
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
